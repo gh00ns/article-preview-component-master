@@ -101,13 +101,15 @@ body {
   z-index: 2;
   background-color: var(--Very-Dark-Grayish-Blue);
   width: 328px;
-  height: 80px;
   margin-left: -30px;
   margin-top: 10px;
   padding-bottom: 8px;
 
   display: none;
   align-items: center;
+
+  height: 0;
+  transition: height 0.3s ease-in-out;
 }
 
 .container__info .user__bar .active__bar h2 {
@@ -125,6 +127,7 @@ body {
 /* HOVER STATES */
 .container__info .user__bar .img__arrow:hover {
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 /* ATTRIBUTIONS */
