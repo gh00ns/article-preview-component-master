@@ -17,7 +17,7 @@ function arrowPressed() {
     }
     else {
         activeBar.style.height = "0px";
-        setTimeout(() => {activeBar.style.display = ""}, 250); // wait for transition to finish
+        setTimeout(() => {activeBar.style.display = ""}, 150); // wait for transition to finish
 
         arrow.src = "./images/icon-share.svg"
         arrow.style.backgroundColor = "";

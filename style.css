@@ -109,7 +109,7 @@ body {
   align-items: center;
 
   height: 0;
-  transition: height 0.3s ease-in-out;
+  transition: height 0.2s ease-in-out;
 }
 
 .container__info .user__bar .active__bar h2 {
